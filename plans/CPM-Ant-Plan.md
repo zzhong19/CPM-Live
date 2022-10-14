@@ -36,67 +36,67 @@ CPM-Ant uses 1TB of raw data, and 200GB of high-quality data are obtained after 
 
 <table align="center">
 <tr>
-	<th>数据来源</th>
-	<th>占比</th>
-	<th>文档平均长度（字）</th>
-	<th>句子平均长度（字）</th>
-	<th>平均PPL（mGPT）*</th>
+	<th>Data source</th>
+	<th>Percentage</th>
+	<th>Average document length (words)</th>
+	<th>Average sentence length (words)</th>
+	<th>Average PPL（mGPT）*</th>
 </tr>
 <tr>
-	<td>书籍</td>
+	<td>Books</td>
 <td>33.02%</td>
 <td>248495.71</td>
 <td>32.93</td>
 <td>273.777</td>
 </tr>
 <tr>
-<td>网页</td>
+<td>Webpages</td>
 <td>21.52%</td>
 <td>665.83</td>
 <td>28.304</td>
 <td>141.53</td>
 </tr>
 <tr>
-<td>小说</td>
+<td>Novels</td>
 <td>20.76%</td>
 <td>62317.79</td>
 <td>30.839</td>
 <td>69.98</td>
 </tr>
 <tr>
-<td>杂志</td>
+<td>Magazines</td>
 <td>11.95%</td>
 <td>2534.16</td>
 <td>39.06</td>
 <td>83.22</td>
 </tr>
 <tr>
-<td>学术</td>
+<td>Academia</td>
 <td>4.77%</td>
 <td>173.8</td>
 <td>58.044</td>
 <td>39.04</td>
 </tr>
 <tr>
-<td>百科</td>
+<td>Encyclopedia</td>
 <td>2.25%</td>
 <td>1081.33</td>
 <td>32.466</td>
 <td>2072.53</td>
 </tr>
 <tr>
-<td>新闻</td>
+<td>News</td>
 <td>1.79%</td>
 <td>717.87</td>
 <td>43.717</td>
 <td>56.85</td>
 </tr>
 <tr>
-<td>其它</td>
+<td>Others</td>
 <td>3.95%</td>
 <td>852.36</td>
 <td>37.68</td>
 <td>395.26</td>
 </tr>
-<tr><td colspan="5">* 使用<a href="https://huggingface.co/sberbank-ai/mGPT">mGPT</a>计算得到句子平均PPL</td></tr>
+<tr><td colspan="5">* Uses<a href="https://huggingface.co/sberbank-ai/mGPT">mGPT</a>to calculate average sentencePPL</td></tr>
 </table>
