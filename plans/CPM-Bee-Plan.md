@@ -1,4 +1,4 @@
-#CPM-Bee Training Plan
+# CPM-Bee Training Plan
 
 ## I. Model Architecture
 The overall structure of CPM-Bee is consistent with CPM-Ant, which can be referred to in the model details.
@@ -31,7 +31,7 @@ The existing pre-trained language models are mainly based on the use of unstruct
     }
 }
 ```
-(iii) Task mode enhancement
+### (iii) Task mode enhancement
 In CPM-Bee, we will introduce data enhancements for various common task modes during pre-training, including generation, Q&A, summarization, translation, etc., to support CPM-Bee's out-of-the-box use on various text processing tasks and enhance the performance of efficient fine-tuning of parameters combined with a small number of samples.
 
 ## III. Training details
