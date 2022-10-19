@@ -23,11 +23,11 @@ In CPM-Ant, we focus on building a large model with Chinese as the core. In CPM-
 The existing pre-trained language models are mainly based on the use of unstructured text for training, and thus are weak in handling semi-structured and structured data. In CPM-Bee, we will add various types of semi-structured and structured data processing functions to better support the processing capability of structured and complex texts such as web pages and codes. The following shows structured training data.
 ```json
 {
-    "document": "Today the weather was really <mask_0>, we went to <mask_1> and played very <mask_2>." ,
+    "document": "Today the weather was really <mask_0>, we went to <mask_1> and played <mask_2>." ,
     "<ans>": {
         "<mask_0>": "Good",
         "<mask_1>": "Summer Palace",
-        "<mask_2>": "Happy"
+        "<mask_2>": "Happily"
     }
 }
 ```
