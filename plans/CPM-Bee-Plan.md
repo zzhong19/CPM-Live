@@ -55,4 +55,6 @@ The model training process focuses on performance monitoring and problem handlin
 - Daily: Publish single-day model training logs
 - Weekly: centralize the feedback from community discussions and comments
 - Periodically: Publish intermediate checkpoint of model training and provide users with downloads
+
+
 After the model training is completed, CPM-Bee will organize and integrate the community model proposals, compress the models to the appropriate scale, prepare a summary report and publish the relevant models one after another. In addition, for some of the community proposals that are not adopted, we will consider introducing them into the next-generation model training and start the preparation of the next-generation model training.
