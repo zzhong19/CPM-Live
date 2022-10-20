@@ -139,6 +139,7 @@ CPM-Live carries out a series of processing for raw data to improve data quality
 - **Data filtering**: The data filtering stage uses various filtering schemes such as templates, rules, and PPL to screen out low-quality data and sensitive information in the original corpus, which is used to improve model security and stability in the training stage.
 - **Data de-duplication**: The data de-duplication phase uses a hash value approach to de-duplicate the data. The de-duplication algorithm calculates a hash value for each paragraph in the document. When more than 70% of the hash values of the paragraphs in a document have already appeared in the database, it is considered a duplicate, otherwise, the hash values of all paragraphs are stored in the database.
 - **Data augmentation**: The data augmentation phase constructs or generates additional supervised signals through some existing models or unsupervised methods, which are used to enhance the performance of the model in the downstream tasks in zero-shot and few-shot environments.
+
 After completing the three phases of processing, the data is finally converted into a series of token ids by the tokenizer and cut into multiple training instances for model training according to the maximum training length of CPM-Live.
 
 ## III. open-source co-construction
@@ -159,14 +160,14 @@ Users can download all public versions of CPM-Live models for free and use them 
 The user community will be based on GitHub-related functions at the beginning, and the subsequent community functions will be improved and integrated into the official website of CPM-Live one after another.
 
 ## IV. Use Agreement
-The agreement applicable to the CPM-Live series release model is ["General Model License Agreement - Source Description - Publicity Restrictions"].(https://github.com/OpenBMB/General-Model-License/blob/main/%E9%80%9A%E7%94%A8%E6%A8%A1%E5%9E%8B%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE-%E6%9D%A5%E6%BA%90%E8%AF%B4%E6%98%8E-%E5%AE%A3%E4%BC%A0%E9%99%90%E5%88%B6.md) According to the circumstances set under this agreement, the publisher grants users global, non-exclusive and free-use rights, including model inference, model modification, model sharing and distribution, but based on the following prerequisites.
+The agreement applicable to the CPM-Live series release model is "[General Model License Agreement - Source Description - Publicity Restrictions"](https://github.com/OpenBMB/General-Model-License/blob/main/%E9%80%9A%E7%94%A8%E6%A8%A1%E5%9E%8B%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE-%E6%9D%A5%E6%BA%90%E8%AF%B4%E6%98%8E-%E5%AE%A3%E4%BC%A0%E9%99%90%E5%88%B6.md)". According to the circumstances set under this agreement, the publisher grants users global, non-exclusive and free-use rights, including model inference, model modification, model sharing and distribution, but based on the following prerequisites.
 
 - **Description of Source**: Users shall use the Generic Model and Generic Model results with a link to the source of this Generic Model and this License Agreement.
 - **Permission to modify and distribute**: Users may distribute and disseminate derived models and derived model results after modifying the source model at their own discretion.
 - **Publicity Restrictions**: Users may not promote the Generic Model on behalf of the publisher.
 - **Commercialization**: The user may use the generic model for any commercial purpose.
 - **No Additional Restrictions**: The user may not use any additional legal or technical measures to restrict others from doing anything permitted by this License.
-For more details on this agreement, please refer to this [website].(https://github.com/OpenBMB/General-Model-License/blob/main/%E9%80%9A%E7%94%A8%E6%A8%A1%E5%9E%8B%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE-%E6%9D%A5%E6%BA%90%E8%AF%B4%E6%98%8E-%E5%AE%A3%E4%BC%A0%E9%99%90%E5%88%B6.md) This Agreement is part of the Generic Model License family, and more information about the Generic Model License can be found on this [website](https://www.openbmb.org/models/license).
+For more details on this agreement, please refer to this [website](https://github.com/OpenBMB/General-Model-License/blob/main/%E9%80%9A%E7%94%A8%E6%A8%A1%E5%9E%8B%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE-%E6%9D%A5%E6%BA%90%E8%AF%B4%E6%98%8E-%E5%AE%A3%E4%BC%A0%E9%99%90%E5%88%B6.md) This Agreement is part of the Generic Model License family, and more information about the Generic Model License can be found on this [website](https://www.openbmb.org/models/license).
 
 ## V. Risk Warning
 Given the "black box" nature of machine learning models, the models may output uncontrolled content including, but not limited to, disinformation, political misinformation, biased and discriminatory discourse, incitement and innuendo of undesirable behaviour, etc. Although CPM-Live has performed data cleansing on the relevant training data, there is still a risk that it may be used in ways that are not limited to the following. The risk of use is limited to the following. Before using the resources related to CPM-Live, users should be clear about the relevant risks involved in this section and bear all the risks and responsibilities in the process of use.
@@ -184,7 +185,7 @@ It is not easy to train, every time you share and forward will help to train the
 If you want to provide computing power, data, financial support or other cooperation, 请联系openbmb@gmail.com.
 
 ## VII. CPM-Ant Training Program
-See [here] for details(CPM-Ant%E8%AE%AD%E7%BB%83%E8%AE%A1%E5%88%92%E4%B9%A6.md)
+See [here](CPM-Ant%E8%AE%AD%E7%BB%83%E8%AE%A1%E5%88%92%E4%B9%A6.md) for details
 
 ## VIII, CPM-Bee training program
-See [here] for more details(./CPM-Bee%E8%AE%AD%E7%BB%83%E8%AE%A1%E5%88%92%E4%B9%A6.md)
+See [here](./CPM-Bee%E8%AE%AD%E7%BB%83%E8%AE%A1%E5%88%92%E4%B9%A6.md) for more details
