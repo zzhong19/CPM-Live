@@ -11,17 +11,17 @@
 - [VIII. CPM-Bee training program](#VIII-CPM-Bee-training-program)
 
 ## I. General overview of the plan
-CPM-Live live training is an open-source large model live training based on CPM series models, and the training process will adopt continuous learning and real-time live training progress. Compared with the existing open-source large models and related live training, CPM-Live has the following features.
+CPM-Live live training is an open-source big model live training based on CPM series models, and the training process will adopt continuous learning and real-time live training progress. Compared with the existing open-source big models and related live training, CPM-Live has the following features.
 
 - **Continuous learning**: CPM-Live is based on the continuous learning method and will continue to train and improve for a long time in the future. Specifically, the training of CPM-Live will be divided into several stages, and we will start with the training of the 10B big models, providing Chinese and English support and structured input and output capabilities. In the subsequent training, the scale of the CPM-Live model will continue to expand, the data will continue to increase, the capability will continue to improve, and the language will continue to enrich.
 
 - **Open and democratic**: CPM-Live advocates open-source construction and the training process of CPM-Live hopes to actively solicit the opinions and suggestions of the open-source community. In the CPM-Live training process, community users can put forward initiatives on the CPM-Live model including but not limited to model features, training methods, use of data, etc., of which mature initiatives will likely be integrated into the final model. In addition, CPM-Live advocates openness and will provide downloads of relevant model parameters after training, and adopts an open model usage protocol that includes permission for commercialization.
 
-- **Efficient Computing**: The CPM-Live training, compression, and inference process will be based on the OpenBMB open-source community toolkit. With the large model training "engine" BMTrain, we can train very large models of tens of billions or more in small clusters, which significantly reduces the cost of model training and makes our training more low-carbon and efficient. With the large model "thinning" tool library BMCook and efficient inference toolkit BMInf, ordinary users can run large models on consumer-grade graphics cards, so as to experience the charm of large models more conveniently.
+- **Efficient Computing**: The CPM-Live training, compression, and inference process will be based on the OpenBMB open-source community toolkit. With the big model training "engine" BMTrain, we can train big models of tens of billions or more in small clusters, which significantly reduces the cost of model training and makes our training more low-carbon and efficient. With the big model "thinning" tool library BMCook and efficient inference toolkit BMInf, ordinary users can run big models on consumer-grade graphics cards, so as to experience the charm of big models more conveniently.
 
 ## II. CPM-Live Model
 ### (i) Parameter scale
-In the training of CPM-Live, we will achieve continuous parameter growth through multi-stage continuous learning. In order to take into account the computational efficiency in the actual use process, we will provide a variety of commonly used sizes of large model compression version, the specific training scale parameters and open source parameters scale is shown in the following table.
+In the training of CPM-Live, we will achieve continuous parameter growth through multi-stage continuous learning. In order to take into account the computational efficiency in the actual use process, we will provide a variety of commonly used sizes of big model compression version, the specific training scale parameters and open source parameters scale is shown in the following table.
 
 <table align="center">
 <tr>
