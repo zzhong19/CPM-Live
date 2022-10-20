@@ -1,7 +1,7 @@
 # CPM-Live Training Plan
 ## Table of Contents
 
-- I. General overview of the program
+- [I. General overview of the program](#i-general-overview-of-the-plan)
 - II. CPM-Live model
 - III. Open Source Co-Building
 - IV. Use Agreement
@@ -140,7 +140,7 @@ CPM-Live carries out a series of processing for raw data to improve data quality
 - **Data de-duplication**: The data de-duplication phase uses a hash value approach to de-duplicate the data. The de-duplication algorithm calculates a hash value for each paragraph in the document. When more than 70% of the hash values of the paragraphs in a document have already appeared in the database, it is considered a duplicate, otherwise, the hash values of all paragraphs are stored in the database.
 - **Data augmentation**: The data augmentation phase constructs or generates additional supervised signals through some existing models or unsupervised methods, which are used to enhance the performance of the model in the downstream tasks in zero-shot and few-shot environments.
 
-After completing the three phases of processing, the data is finally converted into a series of token ids by the tokenizer and cut into multiple training instances for model training according to the maximum training length of CPM-Live.
+After completing the three phases of processing, the data is finally converted into a series of `token ids` by the `tokenizer` and cut into multiple training instances for model training according to the maximum training length of CPM-Live.
 
 ## III. open-source co-construction
 CPM-Live actively creates a large model online training community and advocates open source sharing in the training process, encouraging community users to participate deeply and actively provide suggestions. The main ways of user participation are as follows.
