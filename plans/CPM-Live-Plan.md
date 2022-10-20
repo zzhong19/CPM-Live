@@ -1,13 +1,14 @@
 # CPM-Live Training Plan
 ## Table of Contents
-I. General overview of the program
-Two, CPM-Live model
-III. Open Source Co-Building
-IV. Use Agreement
-V. Risk Warning
-VI. Support Program
-VII. CPM-Ant training program
-Eight, CPM-Bee training program
+
+- [I. General overview of the program](# I. General overview of the plan)
+- [II, CPM-Live model]
+- [III. Open Source Co-Building]
+- [IV. Use Agreement]
+- [V. Risk Warning]
+- [VI. Support Program]
+- [VII. CPM-Ant training program]
+- [VIII, CPM-Bee training program]
 
 ## I. General overview of the plan
 CPM-Live live training is an open-source large model live training based on CPM series models, and the training process will adopt continuous learning and real-time live training progress. Compared with the existing open-source large models and related live training, CPM-Live has the following features.
@@ -102,6 +103,8 @@ In the training of CPM-Live, we will achieve continuous parameter growth through
 				
 - :bug: : Published model size
 - :ant: : Target model size
+
+
 For details of the training tools, see.
 - [BMTrain](https://github.com/OpenBMB/BMTrain)
 - [Model Center](https://github.com/OpenBMB/ModelCenter)
